@@ -1,4 +1,5 @@
 const fs = require('fs').promises;
+const express = require('express');
 
 const FILE_NAME = './talker.json';
 
@@ -32,4 +33,9 @@ const getTalkerById = async (req, res, _next) => {
   return res.status(200).send(findTalker);
 };
 
-module.exports = { getAllTalkers, getTalkerById };
+const talkerRouter = express.Router();
+
+talkerRouter.get('/', getAllTalkers);
+talkerRouter.get('/:id', getTalkerById);
+
+module.exports = talkerRouter;
