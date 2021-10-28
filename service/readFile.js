@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 
-const FILE_NAME = '/home/willian/Trybe/projetos/sd-012-project-talker-manager/talker.json';
+const FILE_NAME = './talker.json';
 
 const readFile = async () => {
   try {

@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const readFile = require('../service/readFile');
 
-const FILE_NAME = '/home/willian/Trybe/projetos/sd-012-project-talker-manager/talker.json';
+const FILE_NAME = './talker.json';
 
 const createTalker = async (req, res, next) => {
   const newTalker = req.body;
