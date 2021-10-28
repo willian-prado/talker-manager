@@ -3,6 +3,8 @@ const createTalker = require('./middlewares/createTalkers');
 const getAllTalkers = require('./middlewares/getAllTalkers');
 const getTalkerById = require('./middlewares/getTalkerById');
 const editTalker = require('./middlewares/editTalker');
+const deleteTalker = require('./middlewares/deleteTalker');
+const searchTalker = require('./middlewares/searchTalker');
 const { 
   tokenValidator,
   nameValidator,
@@ -11,9 +13,12 @@ const {
   dateValidator,
   rateValidator,
 } = require('./errorHandlers/errorHandlers');
-const deleteTalker = require('./middlewares/deleteTalker');
 
 const talkerRouter = express.Router();
+
+talkerRouter.get('/search',
+  tokenValidator,
+  searchTalker);
 
 talkerRouter.get('/', getAllTalkers);
 
