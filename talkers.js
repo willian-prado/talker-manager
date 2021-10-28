@@ -11,6 +11,7 @@ const {
   dateValidator,
   rateValidator,
 } = require('./errorHandlers/errorHandlers');
+const deleteTalker = require('./middlewares/deleteTalker');
 
 const talkerRouter = express.Router();
 
@@ -35,5 +36,9 @@ talkerRouter.put('/:id',
   dateValidator,
   rateValidator,
   editTalker);
+
+talkerRouter.delete('/:id', 
+  tokenValidator,
+  deleteTalker);
 
 module.exports = talkerRouter;
