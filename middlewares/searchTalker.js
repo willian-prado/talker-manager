@@ -10,7 +10,12 @@ const searchTalker = async (req, res, next) => {
     } 
 
     const search = talkers.filter((talker) => talker.name.includes(q));
-    res.status(200).send(search);
+
+    if (!search) {
+      return res.status(200).send([]);
+    }
+
+    return res.status(200).send(search);
   } catch (e) {
     next(e);
   }

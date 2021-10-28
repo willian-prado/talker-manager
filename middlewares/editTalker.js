@@ -11,7 +11,7 @@ const editTalker = async (req, res, next) => {
 
   try {
     const talkers = await readFile();
-    talkers[id - 1] = editedTalker;
+    talkers[parseInt(id, 10) - 1] = editedTalker;
     await fs.writeFile(FILE_NAME, JSON.stringify(talkers));
     return res.status(200).json(editedTalker);
   } catch (e) {
