@@ -1,42 +1,8 @@
-### Termos e acordos
+### Projeto Talker Manager
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+### Objetivo do projeto
 
----
-
-# Boas vindas ao repositório do Talker Manager!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
-
----
-
-# Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Como desenvolver](#como-desenvolver)
-- [Requisitos do projeto](#requisitos-do-projeto)
-  - [Linter](#linter)
-  - [Lista de requisitos](#lista-de-requisitos)
-    - [1 - Crie o endpoint GET /talker](#1---crie-o-endpoint-get-talker)
-    - [2 - Crie o endpoint GET /talker/:id](#2---crie-o-endpoint-get-talkerid)
-    - [3 - Crie o endpoint POST /login](#3---crie-o-endpoint-post-login)
-    - [4 - Crie o endpoint POST /talker](#4---crie-o-endpoint-post-talker)
-    - [5 - Crie o endpoint PUT /talker/:id](#5---crie-o-endpoint-put-talkerid)
-    - [6 - Crie o endpoint DELETE /talker/:id](#6---crie-o-endpoint-delete-talkerid)
-    - [7 - Crie o endpoint GET /talker/search?q=searchTerm](#7---crie-o-endpoint-get-talkersearchqsearchterm)
-- [Avisos Finais](#avisos-finais)
-
----
+Você vai desenvolver uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrantes. Você vai desenvolver alguns endpoints que irão ler e escrever em um arquivo, isso utilizando o módulo `fs`.
 
 # Habilidades
 
@@ -56,26 +22,6 @@ Neste projeto, verificamos se você é capaz de:
 - Entender a estrutura de uma aplicação Express e como organizar seu código;
 - Criar rotas e aplicar middlewares.
 ---
-
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
-## O que deverá ser desenvolvido
-
-Você vai desenvolver uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrantes. Você vai desenvolver alguns endpoints que irão ler e escrever em um arquivo, isso utilizando o módulo `fs`.
-
-## Desenvolvimento
-
-### Data de Entrega
-
-- Projeto individual.
-
-- Serão dois dias de projeto.
-
-- O projeto tem até a seguinte data: `04/11/2021 - 14:00h`. Para ser entregue a avaliação final.
 
 ---
 
