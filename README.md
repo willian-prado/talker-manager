@@ -4,7 +4,9 @@
 
 **Contexto**
 
-Após sermos introduzidos ao `Node.js`, `NPM` (Node Package Manager) e `Express`, neste trabalho somos desafiados a construir uma API HTTP com essas tecnologias. Como é um projeto introdutório, não foi utilizado nenhum banco de dados, mas sim o módulo `fs` para ler e escrever dados em um arquivo. Conhecimentos sobre as camadas de uma aplicação e arquitetura de software foram dados em blocos posteriores, por isso, a organização dos arquivos deste projeto não possui nenhum tipo de padrão.
+Após sermos introduzidos ao `Node.js`, `NPM` (Node Package Manager) e `Express`, neste trabalho somos desafiados a construir uma API HTTP com essas tecnologias. Como é um projeto introdutório, não foi utilizado nenhum banco de dados, mas sim o módulo `fs` para ler e escrever dados em um arquivo.
+Conhecimentos sobre as camadas de uma aplicação e arquitetura de software foram dados em blocos posteriores, por isso, a organização dos arquivos
+deste projeto não possui nenhum tipo de padrão.
 
 **Objetivo do projeto**
 
