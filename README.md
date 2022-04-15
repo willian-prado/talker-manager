@@ -1,4 +1,4 @@
-### Projeto Talker Manager
+## Projeto Talker Manager
 
 > Sétimo projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
 
