@@ -36,6 +36,18 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo utiliz
 
 ---
 
+### Endpoints disponíveis na aplicação:
+
+* [`GET`] Listar palestrantes: `/talker`;
+* [`GET`] Listar palestrante pelo seu id: `/talker/:id`;
+* [`POST`] Realizar login:`/login`;
+* [`POST`] Cadastrar um palestrante: `/talker`;
+* [`PUT`] Editar um palestrante pelo seu id: `/talker/:id`;
+* [`DELETE`] Remover um palestrante pelo seu id: `/talker/:id`;
+* [`GET`] Listar uma venda pelo termo buscado: `/talker/search?q=searchTerm`;
+
+---
+
 ### Lista de requisitos propostos pela Trybe:
 
 #### Observações
