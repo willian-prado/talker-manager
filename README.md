@@ -56,7 +56,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
 
 #### Obrigatórios
 
-### 1 - Crie o endpoint GET `/talker`
+#### 1 - Crie o endpoint GET `/talker`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -94,7 +94,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
 - Caso não exista nenhuma pessoa palestrante cadastrada o endpoint deve retornar um array vazio e o `status 200`.
 
 
-### 2 - Crie o endpoint GET `/talker/:id`
+#### 2 - Crie o endpoint GET `/talker/:id`
 
 - O endpoint deve retornar uma pessoa palestrante com base no id da rota. Devendo retornar o `status 200` ao fazer uma requisição `/talker/1`, com o seguinte corpo:
 
@@ -115,7 +115,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
   }
   ```
 
-### 3 - Crie o endpoint POST `/login`
+#### 3 - Crie o endpoint POST `/login`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -174,7 +174,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
     }
     ```
 
-### 4 - Crie o endpoint POST `/talker`
+#### 4 - Crie o endpoint POST `/talker`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -293,7 +293,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
   }
   ```
 
-### 5 - Crie o endpoint PUT `/talker/:id`
+#### 5 - Crie o endpoint PUT `/talker/:id`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -412,7 +412,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
   }
   ```
 
-### 6 - Crie o endpoint DELETE `/talker/:id`
+#### 6 - Crie o endpoint DELETE `/talker/:id`
 
 #### Os seguintes pontos serão avaliados:
 
@@ -441,7 +441,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso 
   ```
 
 
-### 7 - Crie o endpoint GET `/talker/search?q=searchTerm`
+#### 7 - Crie o endpoint GET `/talker/search?q=searchTerm`
 
 #### Os seguintes pontos serão avaliados:
 
