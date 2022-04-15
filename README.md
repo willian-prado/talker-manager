@@ -11,7 +11,7 @@ deste projeto não possui nenhum tipo de padrão.
 **Objetivo do projeto**
 
 Desenvolver uma API de um CRUD (**C**reate, **R**ead, **U**pdate e **D**elete) de palestrantes. 
-Devem ser criados alguns endpoints que irão ler e escrever em um arquivo, isso utilizando o módulo `fs`.
+Devem ser criados alguns endpoints que irão ler e escrever em um arquivo utilizando o módulo `fs`.
 
 **Principais habilidades desenvolvidas nesse trabalho**
 
