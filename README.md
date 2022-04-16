@@ -4,9 +4,8 @@
 
 **Contexto**
 
-Após sermos introduzidos ao `Node.js`, `NPM` (Node Package Manager) e `Express`, neste trabalho somos desafiados a construir uma API HTTP com essas tecnologias. Como é um projeto introdutório, não foi utilizado nenhum banco de dados, mas sim o módulo `fs` para ler e escrever dados em um arquivo.
-Conhecimentos sobre as camadas de uma aplicação e arquitetura de software foram dados em blocos posteriores, por isso, a organização dos arquivos
-deste projeto não possui nenhum tipo de padrão.
+Após sermos introduzidos ao `Node`, `NPM` (Node Package Manager) e `Express`, neste trabalho somos desafiados a construir uma API HTTP com essas tecnologias. Como é um projeto introdutório, não foi utilizado nenhum banco de dados, mas sim o módulo `fs` para ler e escrever dados em um arquivo.
+Além disso, como ainda não tínhamos conhecimentos sobre arquitetura de software, a organização dos arquivos deste projeto não seguiu nenhum tipo de padrão.
 
 **Objetivo do projeto**
 
@@ -49,24 +48,6 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo utiliz
 ---
 
 ### Lista de requisitos propostos pela Trybe:
-
-#### Observações
-
-1. Com exceção do requisito 3, todos os outros requisitos deverão ser feitos utilizando o módulo `fs`.
-
-2. O arquivo `talker.json` será utilizado como base para fazer as requisições da API. As operações de leitura e escrita dos requisitos devem ser feitas nesse arquivo usando os métodos da biblioteca `fs`.
-
-3. Há um arquivo `index.js` no repositório. Não remova, nele, o seguinte trecho de código:
-  ```javascript
-  app.get('/', (_request, response) => {
-    response.status(HTTP_OK_STATUS).send();
-  });
-  ```
-  Isso está configurado para o avaliador funcionar.
-
-4. Caso os testes falhem seu arquivo `talker.json` não será restaurado, para isso utilize `npm run restore`.
-
-5. Ao se deparar com o erro de que a porta já está em uso: `EADDRINUSE: address already in use 0.0.0.0:3000`, execute em seu terminal `killall node` isso finaliza todas as execuções do node.
 
 #### Obrigatórios
 
