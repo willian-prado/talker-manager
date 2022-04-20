@@ -1,6 +1,6 @@
 ## Projeto Talker Manager
 
-> Sétimo projeto do módulo de Back-end do curso de desenvolvimento web da Trybe.
+> Sétimo projeto do módulo de Back-end do curso de desenvolvimento web da [Trybe](https://www.betrybe.com/)
 
 **Contexto**
 
@@ -483,3 +483,7 @@ Devem ser criados alguns endpoints que irão ler e escrever em um arquivo utiliz
 - Caso nenhuma pessoa palestrante satisfaça a busca, o endpoint deve retornar o `status 200` e um array vazio.
 
 **Dica** é importante ter atenção se essa rota não entra em conflito com as outras, já que a ordem das rotas faz diferença na interpretação da aplicação
+
+---
+
+[Ir para a lista de projetos](https://github.com/willian-prado/trybe-records)
